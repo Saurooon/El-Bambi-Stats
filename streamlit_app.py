@@ -7,7 +7,7 @@ st.title("Weekly Performance Dashboard")
 
 # --- DATA LOADING ---
 # Replace this URL with your actual "Raw" GitHub URL
-GITHUB_CSV_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/data.csv"
+GITHUB_CSV_URL = "https://raw.githubusercontent.com/Saurooon/El-Bambi-Stats/refs/heads/main/weekly_costs.csv"
 
 @st.cache_data(ttl=600) # This refreshes the data every 10 minutes
 def load_data(url):
